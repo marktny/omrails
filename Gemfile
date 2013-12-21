@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
 
 group :production do
 	gem 'pg'
