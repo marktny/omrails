@@ -5,6 +5,8 @@ ruby '2.0.0'
 	
 gem 'rails', '4.0.2'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 
 group :production do
@@ -19,7 +21,6 @@ group :development, :test do
 	gem 'sqlite3'
 end 
 
-
 group :assets do
 	gem 'sass-rails', '>= 3.2' 
 	gem 'coffee-rails', '~> 4.0.0'
@@ -29,7 +30,6 @@ group :assets do
 	gem 'jbuilder', '~> 1.2'
 	gem 'rails_12factor'
 end
-
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
