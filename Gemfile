@@ -13,6 +13,8 @@ group :production do
 	gem 'pg'
 end
 
+gem 'quiet_assets', :group => :development
+
 group :development do
   gem 'rails_layout'
 end
